@@ -18,3 +18,7 @@ It allows to add new functionality to an existing object without altering its st
 Consider a case of a coffee shop. In the coffee shop they will sell decaf and espresso with extra choices like sugar, milk etc. Now imagine a situation wherein if the coffee shop has to provide prices for each combination of coffees and toppings. A customer can order an espresso with double sugar or a decaf with sugar and milk. Maybe coffee shop will decide to add other extra choices for its toppings in the future.
 
 There is a best practice solution for these problems and this one called as Decorator Pattern :)
+
+Have a look at my project for more detailed review.
+
+## I've tried to explain as short as possible. I hope everything is clear :)
