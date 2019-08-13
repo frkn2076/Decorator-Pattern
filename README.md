@@ -1,0 +1,47 @@
+
+<p align="center">
+  <img src="https://github.com/frkn2076/Decorator-Pattern/blob/master/Art/Decorator Pattern - UML Diagram.png">
+</p>
+
+<h1 align="center">GraphQL Looney Tunes</h1>
+<p align="center">
+  Get information of Looney Tunes Characters with GraphQL!<br />
+</p>
+
+## How to use
+
+Simply get Looney Tunes Characters' information through queries in GraphQL, here are a few examples
+
+```javascript
+{
+  cartoons {
+    cartoonId,
+    name,
+    image,
+    description
+  }
+}
+```
+
+```javascript
+{
+  cartoon(id:5) {
+  cartoonId,
+  name,
+  image,
+  description
+  }
+}
+```
+
+```javascript
+{
+  cartoon (name:"Bugs Bunny"){
+    cartoonId,
+    name,
+    image,
+    description
+  }
+}
+
+```
